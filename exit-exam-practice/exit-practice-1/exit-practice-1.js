@@ -5,4 +5,5 @@ function add(x, y){
 }
 
 app.add = add;
-module.exports = app;
+
+export { app }
